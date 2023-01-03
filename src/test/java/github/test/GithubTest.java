@@ -8,7 +8,7 @@ import static github.page.CodeTab.openRepoPage;
 public class GithubTest extends BaseTest {
 
     @Test
-    @DisplayName("Проверка блока 'SoftAssertions' на странице selenide в github")
+    @DisplayName("Check block 'SoftAssertions' on selenide page in the github")
     public void test01() {
         openRepoPage("/selenide/selenide")
                 .openWikiTab()

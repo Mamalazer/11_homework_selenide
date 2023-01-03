@@ -18,7 +18,7 @@ public class CodeTab {
 
     @Step("Открыть репозиторий {repoName} на github")
     public static CodeTab openRepoPage(String repoName) {
-        Selenide.open("https://github.com" + repoName);
+        Selenide.open("/" + repoName);
         return new CodeTab();
     }
 
